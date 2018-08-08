@@ -3,8 +3,8 @@ $(document).ready(function() {
     var inputName = $("input#name").val();
     var inputLast = $("input#last").val();
 
-    $(".name").append(inputName);
-    $(".last").append(inputLast);
+    $(".name").append(inputName.toUpperCase());
+    $(".last").append(inputLast.toUpperCase());
 
     $("#story").show();
 
