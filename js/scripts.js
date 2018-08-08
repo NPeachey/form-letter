@@ -1,10 +1,13 @@
 $(document).ready(function() {
-$("#letter").submit(function() {
-var inputName = $("input#name").val();
+  $("#letter").submit(function() {
+    var inputName = $("input#name").val();
+    var inputLast = $("input#last").val();
 
-$(".name").append(inputName);
+    $(".name").append(inputName);
+    $(".last").append(inputLast);
 
-$("#story").show();
-event.preventDefault();
+    $("#story").show();
+
+    event.preventDefault();
   });
 });

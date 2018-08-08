@@ -9,23 +9,35 @@
   </head>
   <body>
     <div class="container">
-    <div>
-      <h3>Input your name for a nice letter</h3>
+      <div>
+        <h3>Input your name for a nice letter</h3>
 
-      <form id="letter">
-        <label for="name">type name here</label>
-        <input  id="name" class="form-control" type="text">
-      </form>
-    </div>
+        <form id="letter">
+          <div class="form-group">
+            <label for="name">type name here</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="last">type last here</label>
+            <input id="last" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn"><img src="img/mailbox.jpg" alt="image of mailbox"></button>
+        </form>
+      </div>
 
 
-    
-    <div id="story">
-      <h2>A letter in the mail has arrived!</h2>
-      <div class="well">
-      <p>Dear <span class="name"></span>,</p>
-      <p>Nice to hear from you again. I am far away. Please help me, <span class="name"></span></p>
-    </div>
+
+      <div id="story">
+        <h2>A letter in the mail has arrived!</h2>
+          <div class="well">
+          <p>Dear <span class="name"></span> <span class="last"></span>,</p>
+          <p>Nice to hear from you again. I am far away. Please help me, <span class="name"></span> <span class="last"></span>.
+            Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

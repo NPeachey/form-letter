@@ -2,7 +2,6 @@
 #story {
 display: none;
 
-
 }
 .well {
   background-image: url(../img/oldpaper.jpg);
@@ -16,4 +15,7 @@ display: none;
 
 .well p {
   opacity: .6;
+}
+ img{
+  width: 100px
 }
