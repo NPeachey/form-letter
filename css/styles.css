@@ -1,4 +1,19 @@
-/*.form-control {
-  background-color: blue;
-  color: blue;
-}*/
+
+#story {
+display: none;
+
+
+}
+.well {
+  background-image: url(../img/oldpaper.jpg);
+  background-blend-mode: color-burn;
+  margin-top: 20px;
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 30px;
+
+}
+
+.well p {
+  opacity: .6;
+}
